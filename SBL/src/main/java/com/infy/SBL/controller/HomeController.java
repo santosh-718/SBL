@@ -20,7 +20,7 @@ public class HomeController {
 	public List<Employee7> saveStudent() {
 		
 		List<Employee7> emploeeList = employee7Service.findAll();
-		
+		//comment added by santosh
 		
 		return emploeeList;
 	}
